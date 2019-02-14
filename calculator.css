@@ -1,0 +1,78 @@
+table
+{
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:100px;
+	margin-bottom:100px;
+	padding:0px;
+
+}
+input[type='text']
+{
+	width:53%;
+	padding:25px 95px;
+	font-size:25px;
+	color:red;
+	border-radius:20%;
+}
+input[type='button']
+{
+	border-radius:70px;
+	display:inline-block;
+	background-color:black;
+	color:red;
+	border:none;
+	color:white;
+	font-size:20px;
+	padding:40px 40px;
+	box-shadow: 0 9px;
+	box-shadow:0 5px 10px 0 rgba(0,0,0,0.2),1px 10px 0 rgba(0,0,0,0.25);
+
+}
+input[name='zero']
+{
+	width:100%;
+}
+input[name='equal']
+{
+	background-color:orange;
+}
+input[name='plus']
+{
+    background-color:orange;
+}
+input[name='minus']
+{
+	background-color:orange;
+}
+input[name='mul']
+{
+	background-color:orange;
+}
+input[name='div']
+{
+	background-color:orange;
+}
+input[name='AC']
+{
+	background-color:gray;
+}
+input[name='as']
+{
+	background-color:gray;
+}
+input[name='modulo']
+{
+	background-color:gray;
+}
+input[type='button']:hover
+{
+	background-color: red;
+	transition:1s;
+}
+input[type='text']:hover
+{
+	background-color: lightblue;
+}
+
+
